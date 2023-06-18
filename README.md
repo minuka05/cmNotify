@@ -9,7 +9,7 @@ Forked From - https://github.com/maejok-xx/mythic_notify
 ## Installation
 
 - **Replace** the `QBCore.Functions.Notify()` function in _**./qb-core/client/functions.lua:128**_
-```
+```lua
 function QBCore.Functions.Notify(text, texttype, length)
     if type(text) == "table" then
         local ttext = text.text or 'Placeholder'
