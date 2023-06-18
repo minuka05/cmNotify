@@ -1,6 +1,6 @@
 # CM Notifications for QBCore Framework
 
-A simple FiveM notification system for use with the QBCore Framework, based off mythic_notify
+CSS Edit of mythic notify
 
 https://github.com/minuka05/cmNotify
 
