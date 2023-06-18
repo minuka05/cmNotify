@@ -1,5 +1,14 @@
-Replace this qb-core/client/functions.lua
+# CM Notifications for QBCore Framework
 
+A simple FiveM notification system for use with the QBCore Framework, based off mythic_notify
+
+https://github.com/minuka05/cmNotify
+
+Forked From - https://github.com/maejok-xx/mythic_notify
+
+## Installation
+
+- **Replace** the `QBCore.Functions.Notify()` function in _**./qb-core/client/functions.lua:128**_
 ```
 function QBCore.Functions.Notify(text, texttype, length)
     if type(text) == "table" then
@@ -26,7 +35,7 @@ function QBCore.Functions.Notify(text, texttype, length)
     end
 end
 ```
-Replace the above code  with the following
+__**Replace the above code  with the following**__
 ```
 function QBCore.Functions.Notify(text, textype, length)
     if textype == "primary" then textype = "inform" end
