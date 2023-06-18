@@ -1,0 +1,86 @@
+body {
+    background-color: transparent !important;
+}
+
+.template,
+.notification {
+    display: none;
+}
+
+.notif-container {
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    display: table;
+}
+
+.icon {
+    font-family: 'Material Icons';
+    background-color: transparent !important;
+    padding-right: 0px;
+    margin-top: -4px;
+    font-size: 14px;
+    border-left: .3vh solid;
+    float: left;
+    display: table-cell;
+}
+
+.icon.ambulance,
+.icon.police {
+    margin-top: 5 !important;
+}
+
+.notification {
+    padding: 20px;    
+    border-radius: 10px;
+    font: caption;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.caption {
+    border: none;
+    padding-top: 15px;
+    font: caption;
+    font-size: 12px;
+    margin-left: 35px;
+}
+
+.success {    
+    border-radius: 20px;
+    border: .3vh solid rgb(26, 255, 0);
+    background: #4b4444;
+    color: #ffffff;
+}
+
+.inform {            
+    border-radius: 20px;
+    border: .3vh solid rgb(58, 178, 247);
+    background-color: #4b4444;
+    color: #ffffff;
+}
+
+.error {
+    border-radius: 20px;
+    border: .3vh solid rgba(237, 29, 29, 0.845);
+    background: #4b4444;
+    color: #ffffff;
+}
+
+
+.police {
+    border-radius: 20px;
+    border: .3vh solid rgb(0, 85, 255);
+    background: #4b4444;
+    color: #ffffff;
+}
+
+.ambulance {
+    border-radius: 20px;
+    border: .3vh solid #fa6915;
+    background: #4b4444;
+    color: #ffffff;
+}
