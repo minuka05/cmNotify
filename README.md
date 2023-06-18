@@ -36,7 +36,7 @@ function QBCore.Functions.Notify(text, texttype, length)
 end
 ```
 
-__**Replace the above code  with the following**__
+_**Replace the above code  with the following**_
 ```lua
 function QBCore.Functions.Notify(text, textype, length)
     if textype == "primary" then textype = "inform" end
