@@ -1,8 +1,8 @@
 resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
 
-name 'cmNotify'
-author 'Minuka'
-description 'cmNotify - Notification script made for QB Core'
+name 'css edit of mythic_notify'
+author 'Mythic_notify'
+version 'v1.0.3'
 
 ui_page {
     'html/ui.html',
